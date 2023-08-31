@@ -2,10 +2,11 @@ package services
 
 import (
 	"context"
-	"grpcmodel/interfaces"
-	"grpcmodel/models"
 	"log"
 	"time"
+
+	"github.com/SinekaV/grpc-dal/interfaces"
+	"github.com/SinekaV/grpc-dal/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
